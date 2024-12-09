@@ -24,7 +24,7 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: python -m pip install --upgrade pip && pip install unittest
+        run: python -m pip install --upgrade pip
 
       - name: Run tests
         run: python -m unittest discover
